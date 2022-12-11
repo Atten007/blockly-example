@@ -27,3 +27,5 @@ import * as Blockly from 'blockly/core';
 
  // Create the block definitions for the JSON-only blocks.
  // This does not register their definitions with Blockly.
+export const blocks = Blockly.common.createBlockDefinitionsFromJsonArray(
+     [addText]);
